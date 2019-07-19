@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import{ Button} from 'react-bootstrap';
-import{FacebookLoginButton} from 'react-social-login-buttons';
+
+
 
 class SignInForm extends Component {
     constructor() {
@@ -50,10 +50,7 @@ class SignInForm extends Component {
               <div className="FormField">
                   <button className="FormField__Button mr-20">Sign In</button> <Link to="/" className="FormField__Link">Create an account</Link>
               </div>
-              <div className="text-centerpt-3">
-                or continue with your social account
-              </div>
-              <FacebookLoginButton/>
+              
             </form>
           </div>
         );
